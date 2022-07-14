@@ -1,0 +1,296 @@
+/*
+Theme Name: Avadanta Deal
+Template: avadanta
+Theme URI: 
+Author: avadantathemes
+Author URI: https://www.avadantathemes.com
+Description: Avadanta Deal high quality creative child wordpress theme. fully customizable child theme of avadanata. Perfect for business corporate. pre-made designed Homepage with 7 inner sections Featured Slider, teams, testimonials, portfolio, services, about sections,  Hero Content, call to action you can easily customize them. You can easily drag and drop the section position. Theme has dark header menu layout with top info bar with social media icons. The theme suitable for saas application website, architecture, interior design, corporate, agency, business, consulting, shop ecommerce, marketing, gym, blog, travel agency, construction,law firm, spa salons, industries, Beauty,  furniture, home decor, photography, insurance, app landing page, it solutions, decoration,  and many other websites compatible.You can change everything like Un limited color options, typography fonts, size etc. You can choose your own layout for your page with sidebar or without sidebar or full page content. You can customize navigation bar as you want like background color and menu color with sticky menu option.HIde show post meta and title for post. Unlimited  services icons. Translation ready theme. Support any type widget on footer and sidebar. You can change the footer widget column layout. Avadanta Consulting is a Pixel perfect and high defination all media screen sizes. Avadanta Theme woocommerce plugin supports you to create an online store with this theme. SEO Friendly and fast loading wordpress theme. Compatible with elementor page builder, gutenberg and so many popular plugins nicely works with avadanta theme. For more theme information, check out Theme demo here at https://avadantathemes.com/demo/avadanta-deal/ and theme instructions here at https://avadantathemes.com/docs/avadanta-free-theme/
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.9
+Requires PHP: 7.0
+Tags: one-column, two-columns, four-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, post-formats, theme-options, threaded-comments,  portfolio
+License: GNU General Public License v2 or later
+License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
+Text Domain: avadanta-deal
+*/
+
+body{
+
+font-family: 'Barlow', sans-serif;
+
+}
+
+.menu-item-has-children>a:after{
+
+    content: "\f078" !important;
+    top: 3px !important;
+}
+
+.logo-wrap{
+
+    margin-top: -15px;
+}
+
+@media (min-width: 992px){
+.avadanta-navigate .nav-menu>.menu-item>a,
+.avadanta-navigate .nav-menu>.page_item >a{
+
+    color: #fff !important;
+}
+
+
+}
+
+@media (min-width: 1280px){
+.is-boxed .header-main {
+    padding: 0px 40px;
+    padding-bottom: 3px;
+}
+}
+
+.banner-s4 .slick-prev, .banner-s4 .slick-next{
+
+border-radius: unset;
+width: 60px;
+    height: 60px;
+}
+
+.menu-btns>li .search {
+    display: none;
+}
+
+.redux-social-media-list li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: auto;
+    list-style: none;
+}
+
+.topbar .container{
+
+	display: flex;
+        max-width: 100%;
+}
+
+.redux-social-media-list.clearfix{
+
+    padding: revert;
+}
+
+.topbar-socials a {
+    color: inherit;
+    padding: 0 12px;
+    line-height: 41px;
+    display: block;
+    float: left;
+    margin-top: 0;
+    transition: .25s;
+    font-size: 14px;
+    height: 40px;
+    transition: .2s ease;
+}
+
+.tb-border-design .topbar-socials a {
+    width: 48px;
+    text-align: center;
+}
+
+.topbar-right-content {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.topbar-phone, .topbar-email, .topbar-opening-hours {
+    line-height: 40px;
+    float: left;
+    font-size: 13px;
+    letter-spacing: .01em;
+    font-weight: 500;
+    height: 40px;
+}
+
+.tb-border-design .topbar-phone, 
+.tb-border-design .topbar-email,
+ .tb-border-design .topbar-opening-hours {
+    margin-right: 15px;
+}
+
+.topbar-contact a,
+.topbar-contact span{
+
+	padding-right: 10px;
+    color: #fff;
+}
+
+.topbar-contact i{
+
+	padding-right: 8px;
+}
+
+.topbar{
+
+    background: #0b306e;
+}
+
+
+.sidebar{
+
+    border: 1px solid #e7d5d5;
+}
+
+.wgs-sidebar {
+    border: none;
+    margin-bottom: 0 !important;
+    padding: 20px;
+    border: 1px solid #f3f3f3;
+
+}
+.sidebar-widget.widget_recent_entries li a, 
+.sidebar-widget .wp-block-group .wp-block-latest-posts li a,
+.sidebar-widget.widget_archive li a, .sidebar-widget.widget_categories li a,
+ .sidebar-widget.widget_meta li a,
+  .sidebar-widget .wp-block-group .wp-block-archives li a,
+ .sidebar-widget .wp-block-group .wp-block-categories li a{
+
+    color: #000 !important;
+}
+
+
+.avadantaconslt-readmre{
+
+    padding: 0!important;
+}
+
+.avadantaconslt-readmre a{
+
+text-decoration: none;
+    color: #000 !important;
+    font-size: 17px !important;
+    font-weight: 600;
+
+    
+}
+
+.wp-caption,.wp-caption-text,.bypostauthor ,
+.alignright ,.alignleft,.aligncenter{
+
+}
+
+@media (min-width: 576px){
+.post-content {
+    padding-top: 7px !important;
+}
+}
+
+.post-content {
+    padding: 35px 0;
+}
+
+
+@media (max-width: 992px){
+.topbar-right-content,.header-navbar.deal,.avdnta-deal {
+
+display: none;
+}
+
+.avadanta-box.deal{
+
+    width: 100% !important;
+    margin-top: 50px !important; 
+}
+
+}
+
+.banner-heading {
+    text-transform: capitalize;
+}
+
+.feature{
+
+    border: 1px solid #141414;
+    padding: 20px;
+    background: #141414;
+
+}
+
+.add-child-header .header-menus{
+
+padding-top: 25px;
+
+}
+
+.add-child-header .header-menus a{
+
+    color: #fff;
+}
+
+.header-box {
+    position: relative;
+    margin:auto;
+}
+
+
+.avadanta-box.deal
+{
+
+margin-top: 92px;
+    width: 95%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avadanta-box.deal .header-main{
+background: #0aa1d6;
+    padding-right: 15px;
+    padding-left: 0;
+    padding-bottom: 0;
+
+}
+.avadanta-tech{
+
+        border: 1px solid #c6c6c6;
+}
+
+@media (min-width: 992px){
+.post {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.menu-btns li a{
+
+    background: #011133;
+}
+
+
+.btn {
+    color: #fff;
+    padding: 24px 30px 20px;
+}
+}
+
+@media screen and (max-width: 992px){
+.avadanta-navigate .menu-toggle {
+    padding-top: 2px !important;
+}
+}
+
+.menu-btns::before{
+
+    display: none;
+}
+
+.deal-btn{
+
+       
+        position: relative;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
